@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>navbar with tailwind</title>
+    <!-- link for tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+     <!-- link for icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <nav class="flex justify-between px-5 py-3 items-center bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
+        <!-- <h1 class="font-bold text-2xl text-white">Online shop</h1> -->
+         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOYo0sFIC899TtKVeUXKCJaJ-AAuooFPxKGg&s" alt="ecommerce logo" class="w-10 h-10 rounded-full animate-pulse">
+        <ul class="flex items-center">
+            <li class="p-4 hidden lg:block"><a href="#" class="hover:underline text-white font-semibold">Home</a></li>
+            <li class="p-4 hidden lg:block"><a href="#" class="hover:underline text-white font-semibold">Product</a></li>
+            <li class="p-4 hidden lg:block"><a href="#" class="hover:underline text-white font-semibold">About Us</a></li>
+            <li class="p-4 hidden lg:block"><a href="#" class="hover:underline text-white font-semibold">Blog</a></li>
+            <li class="p-4 hidden lg:block"><a href="#" class="hover:underline text-white font-semibold">Contact Us</a></li>
+            <li class="block lg:hidden"><a href="" class="text-white text-xl"><i class="bi bi-list"></i></a></li>
+        </ul>
+    </nav>
+
+    <section class="image-slider h-[450px] relative">
+        <img src="https://img.freepik.com/free-photo/shopping-bag-cart_23-2148879372.jpg?semt=ais_incoming" alt="cover" class="w-[100%] h-[100%] object-cover">
+
+        <div class="absolute top-0 right-0 left-0 bottom-0 bg-black opacity-50 z-0"></div>
+    
+        <i class="bi bi-arrow-left-circle-fill text-4xl z-50 absolute top-[40%] left-[30px] z-[1000] text-yellow-500"></i>
+     
+        <button class="absolute top-[40%] right-[30px] z-[1000]">
+                <i class="bi bi-arrow-right-circle-fill text-4xl z-50 text-yellow-500"></i>
+        </button>
+  
+   
+    </section>
+    <section class="product my-10 px-10">
+        <div class="blog-heading font-bold text-4xl mb-5 text-gray-700">Product Section</div>
+        <div class="flex justify-evenly items-center flex-wrap gap-5 ">
+            <div class="box lg:bg-orange-400 lg:w-[23%] md:w-[45%] md:bg-blue-500 w-[97%] bg-red-500 h-[350px] hover:-translate-y-3 shadow-md shadow-gray-400 hover:shadow-lg"></div>
+            <div class="box lg:bg-orange-400 lg:w-[23%] md:w-[45%] md:bg-blue-500 w-[97%] bg-red-500 h-[350px] hover:-translate-y-3 shadow-md shadow-gray-400 hover:shadow-lg"></div>
+            <div class="box lg:bg-orange-400 lg:w-[23%] md:w-[45%] md:bg-blue-500 w-[97%] bg-red-500 h-[350px] hover:-translate-y-3 shadow-md shadow-gray-400 hover:shadow-lg"></div>
+            <div class="box lg:bg-orange-400 lg:w-[23%] md:w-[45%] md:bg-blue-500 w-[97%] bg-red-500 h-[350px] hover:-translate-y-3 shadow-md shadow-gray-400 hover:shadow-lg"></div>
+            <div class="box lg:bg-orange-400 lg:w-[23%] md:w-[45%] md:bg-blue-500 w-[97%] bg-red-500 h-[350px] hover:-translate-y-3 shadow-md shadow-gray-400 hover:shadow-lg"></div>
+            <div class="box lg:bg-orange-400 lg:w-[23%] md:w-[45%] md:bg-blue-500 w-[97%] bg-red-500 h-[350px] hover:-translate-y-3 shadow-md shadow-gray-400 hover:shadow-lg"></div>
+            <div class="box lg:bg-orange-400 lg:w-[23%] md:w-[45%] md:bg-blue-500 w-[97%] bg-red-500 h-[350px] hover:-translate-y-3 shadow-md shadow-gray-400 hover:shadow-lg"></div>
+            <div class="box lg:bg-orange-400 lg:w-[23%] md:w-[45%] md:bg-blue-500 w-[97%] bg-red-500 h-[350px] hover:-translate-y-3 shadow-md shadow-gray-400 hover:shadow-lg"></div>
+            <div class="box lg:bg-orange-400 lg:w-[23%] md:w-[45%] md:bg-blue-500 w-[97%] bg-red-500 h-[350px] hover:-translate-y-3 shadow-md shadow-gray-400 hover:shadow-lg"></div>
+            <div class="box lg:bg-orange-400 lg:w-[23%] md:w-[45%] md:bg-blue-500 w-[97%] bg-red-500 h-[350px] hover:-translate-y-3 shadow-md shadow-gray-400 hover:shadow-lg"></div>
+            <div class="box lg:bg-orange-400 lg:w-[23%] md:w-[45%] md:bg-blue-500 w-[97%] bg-red-500 h-[350px] hover:-translate-y-3 shadow-md shadow-gray-400 hover:shadow-lg"></div>
+            <div class="box lg:bg-orange-400 lg:w-[23%] md:w-[45%] md:bg-blue-500 w-[97%] bg-red-500 h-[350px] hover:-translate-y-3 shadow-md shadow-gray-400 hover:shadow-lg"></div>
+            <div class="box lg:bg-orange-400 lg:w-[23%] md:w-[45%] md:bg-blue-500 w-[97%] bg-red-500 h-[350px] hover:-translate-y-3 shadow-md shadow-gray-400 hover:shadow-lg"></div>
+            <div class="box lg:bg-orange-400 lg:w-[23%] md:w-[45%] md:bg-blue-500 w-[97%] bg-red-500 h-[350px] hover:-translate-y-3 shadow-md shadow-gray-400 hover:shadow-lg"></div>
+            <div class="box lg:bg-orange-400 lg:w-[23%] md:w-[45%] md:bg-blue-500 w-[97%] bg-red-500 h-[350px] hover:-translate-y-3 shadow-md shadow-gray-400 hover:shadow-lg"></div>
+            <div class="box lg:bg-orange-400 lg:w-[23%] md:w-[45%] md:bg-blue-500 w-[97%] bg-red-500 h-[350px] hover:-translate-y-3 shadow-md shadow-gray-400 hover:shadow-lg"></div>
+        </div>
+    </section>
+   
+    
+    <section class="blog px-10 py-5">
+        <div class="blog-heading font-bold text-4xl mb-5 text-gray-700">Blog Section</div>
+        <div class="blog-section flex flex-wrap justify-between items-center">
+            <div class="blog-image lg:w-[42%] h-[350px] bg-red-400 hover:shadow-lg hover:shadow-red-400 shadow shadow-red-300 rounded-lg">
+                <img src="https://www.privy.com/hs-fs/hubfs/ecommerce-blogging.png?width=860&name=ecommerce-blogging.png" alt="blogimage" class="w-full h-full object-cover rounded-lg">
+            </div>
+        <div class="blog-content lg:w-[42%] h-[350px] bg-blue-50 px-10 py-5 hover:shadow-lg hover:shadow-red-400 shadow shadow-red-300 rounded-lg">
+            <h1 class="text-3xl uppercase text-center font-bold mb-4 text-gray-700">Today Blog</h1>
+            <p class="text-justify text-gray-700">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam corrupti a consequatur? Tenetur odio impedit quos possimus cupiditate eos rem quia recusandae quo quibusdam maxime est nulla, consequuntur, numquam deserunt! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio, impedit culpa sit ea, asperiores magni harum dignissimos repellendus tempore expedita quod voluptas dolore. Ipsam, nulla quasi magni quo nam dolore!</p>
+        </div>
+        </div>
+        
+    </section>
+
+    <footer class="p-10 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
+        <div class="comp flex flex-wrap justify-evenly items-center">
+            <section class="company">
+                <h1 class="text-white font-bold">Partner Company</h1>
+                <ul>
+                    <li class="text-white hover:underline font-semibold"><a href="">Daraz</a></li>
+                    <li class="text-white hover:underline font-semibold"><a href="">Daraz</a></li>
+                    <li class="text-white hover:underline font-semibold"><a href="">Daraz</a></li>
+                    <li class="text-white hover:underline font-semibold"><a href="">Daraz</a></li>
+                    <li class="text-white hover:underline font-semibold"><a href="">Daraz</a></li>
+                </ul>
+            </section>
+            <section class="service">
+                <h1 class="text-white font-bold">Our Service</h1>
+                <ul>
+                    <li class="text-white hover:underline font-semibold"><a href="">Daraz</a></li>
+                    <li class="text-white hover:underline font-semibold"><a href="">Daraz</a></li>
+                    <li class="text-white hover:underline font-semibold"><a href="">Daraz</a></li>
+                    <li class="text-white hover:underline font-semibold"><a href="">Daraz</a></li>
+                    <li class="text-white hover:underline font-semibold"><a href="">Daraz</a></li>
+                </ul>
+            </section>
+            <section class="career">
+                <h1 class="text-white font-bold">Career</h1>
+                <ul>
+                    <li class="text-white hover:underline font-semibold"><a href="">Daraz</a></li>
+                    <li class="text-white hover:underline font-semibold"><a href="">Daraz</a></li>
+                    <li class="text-white hover:underline font-semibold"><a href="">Daraz</a></li>
+                    <li class="text-white hover:underline font-semibold"><a href="">Daraz</a></li>
+                    <li class="text-white hover:underline font-semibold"><a href="">Daraz</a></li>
+                </ul>
+            </section>
+        </div>
+        <div class="footer-icon text-center pt-10 text-3xl text-white ">
+            <i class="bi bi-facebook pr-4 animate-spin"></i>
+            <i class="bi bi-whatsapp pr-4"></i>
+            <i class="bi bi-instagram"></i>
+        </div>
+        <div class="copyright text-center pt-5 text-md text-white font-bold">
+            &copy; Ecommerce 2025
+        </div>
+      
+
+    </footer>
+</body>
+</html>
