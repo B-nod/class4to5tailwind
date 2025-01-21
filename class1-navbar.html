@@ -8,9 +8,22 @@
     <script src="https://cdn.tailwindcss.com"></script>
      <!-- link for icon -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                themecolor: '#2471a3',
+              }
+              
+            }
+          }
+        }
+      </script>
 </head>
 <body>
-    <nav class="flex justify-between px-5 py-3 items-center bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
+    <nav class="flex justify-between px-5 py-3 items-center bg-themecolor">
         <!-- <h1 class="font-bold text-2xl text-white">Online shop</h1> -->
          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOYo0sFIC899TtKVeUXKCJaJ-AAuooFPxKGg&s" alt="ecommerce logo" class="w-10 h-10 rounded-full animate-pulse">
         <ul class="flex items-center">
